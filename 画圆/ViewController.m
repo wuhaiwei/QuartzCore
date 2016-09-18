@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "QuartzCoreDrawView.h"
+#import "HeigherDrawView.h"
 
 #define kScreenWidth     ([[UIScreen mainScreen] bounds].size.width)
 #define kScreenHeight    ([[UIScreen mainScreen] bounds].size.height)
@@ -20,8 +21,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    QuartzCoreDrawView *quartzCoreView = [[QuartzCoreDrawView alloc] initWithFrame:self.view.bounds];
-    [self.view addSubview:quartzCoreView];
+    
+//    QuartzCoreDrawView *quartzCoreView = [[QuartzCoreDrawView alloc] initWithFrame:self.view.bounds];
+//    [self.view addSubview:quartzCoreView];
+    
+    
+    HeigherDrawView *heigherDrawView = [[HeigherDrawView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:heigherDrawView];
 }
 
 @end

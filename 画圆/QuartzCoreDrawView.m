@@ -7,8 +7,8 @@
 //
 
 #import "QuartzCoreDrawView.h"
-#import <QuartzCore/QuartzCore.h>
 
+//http://www.cocoachina.com/industry/20140115/7703.html
 //http://www.360doc.com/content/13/1228/16/8310724_340792339.shtml
 //http://www.cnblogs.com/wxios/p/4533106.html
 static CGFloat const PI = 3.1415926;

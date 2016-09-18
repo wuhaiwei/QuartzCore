@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		FD284A061D8930EC00685B9A /* QuartzCoreDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD284A051D8930EC00685B9A /* QuartzCoreDrawView.m */; };
-		FD284A081D894B6C00685B9A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD284A071D894B6C00685B9A /* QuartzCore.framework */; };
 		FD284A0A1D894EB100685B9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD284A091D894EB100685B9A /* Foundation.framework */; };
 		FD6A15E11D82BC2800CF272C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6A15E01D82BC2800CF272C /* main.m */; };
 		FD6A15E41D82BC2800CF272C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6A15E31D82BC2800CF272C /* AppDelegate.m */; };
@@ -16,12 +15,12 @@
 		FD6A15EA1D82BC2800CF272C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6A15E81D82BC2800CF272C /* Main.storyboard */; };
 		FD6A15EC1D82BC2800CF272C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD6A15EB1D82BC2800CF272C /* Assets.xcassets */; };
 		FD6A15EF1D82BC2800CF272C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6A15ED1D82BC2800CF272C /* LaunchScreen.storyboard */; };
+		FDDF7A3F1D8E8A0500A1F58E /* HeigherDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDF7A3E1D8E8A0500A1F58E /* HeigherDrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FD284A041D8930EC00685B9A /* QuartzCoreDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzCoreDrawView.h; sourceTree = "<group>"; };
 		FD284A051D8930EC00685B9A /* QuartzCoreDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzCoreDrawView.m; sourceTree = "<group>"; };
-		FD284A071D894B6C00685B9A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FD284A091D894EB100685B9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FD6A15DC1D82BC2800CF272C /* 画圆.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "画圆.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD6A15E01D82BC2800CF272C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -33,6 +32,8 @@
 		FD6A15EB1D82BC2800CF272C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD6A15EE1D82BC2800CF272C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD6A15F01D82BC2800CF272C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDDF7A3D1D8E8A0500A1F58E /* HeigherDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeigherDrawView.h; sourceTree = "<group>"; };
+		FDDF7A3E1D8E8A0500A1F58E /* HeigherDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeigherDrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +42,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD284A0A1D894EB100685B9A /* Foundation.framework in Frameworks */,
-				FD284A081D894B6C00685B9A /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				FD284A091D894EB100685B9A /* Foundation.framework */,
-				FD284A071D894B6C00685B9A /* QuartzCore.framework */,
 				FD6A15DE1D82BC2800CF272C /* 画圆 */,
 				FD6A15DD1D82BC2800CF272C /* Products */,
 			);
@@ -75,6 +74,8 @@
 				FD6A15E61D82BC2800CF272C /* ViewController.m */,
 				FD284A041D8930EC00685B9A /* QuartzCoreDrawView.h */,
 				FD284A051D8930EC00685B9A /* QuartzCoreDrawView.m */,
+				FDDF7A3D1D8E8A0500A1F58E /* HeigherDrawView.h */,
+				FDDF7A3E1D8E8A0500A1F58E /* HeigherDrawView.m */,
 				FD6A15E81D82BC2800CF272C /* Main.storyboard */,
 				FD6A15EB1D82BC2800CF272C /* Assets.xcassets */,
 				FD6A15ED1D82BC2800CF272C /* LaunchScreen.storyboard */,
@@ -164,6 +165,7 @@
 			files = (
 				FD284A061D8930EC00685B9A /* QuartzCoreDrawView.m in Sources */,
 				FD6A15E71D82BC2800CF272C /* ViewController.m in Sources */,
+				FDDF7A3F1D8E8A0500A1F58E /* HeigherDrawView.m in Sources */,
 				FD6A15E41D82BC2800CF272C /* AppDelegate.m in Sources */,
 				FD6A15E11D82BC2800CF272C /* main.m in Sources */,
 			);
