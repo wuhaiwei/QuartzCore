@@ -7,6 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "QuartzCoreDrawView.h"
+
+#define kScreenWidth     ([[UIScreen mainScreen] bounds].size.width)
+#define kScreenHeight    ([[UIScreen mainScreen] bounds].size.height)
 
 @interface ViewController ()
 
@@ -16,12 +20,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    QuartzCoreDrawView *quartzCoreView = [[QuartzCoreDrawView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:quartzCoreView];
 }
 
 @end
